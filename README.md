@@ -2,7 +2,7 @@
 
 **StorePulse** is a premium analytics command center designed for healthcare executives to monitor and optimize a network of 50+ locations. It transforms raw Google Business Profile data into prioritized, actionable business intelligence.
 
-🔗 **Live Demo**: [Deploy to Vercel to get URL]
+🔗 **Live Demo**: [https://hiring-assignment-sigma.vercel.app]
 📂 **Repository**: [https://github.com/snehagupta9582883065/hiring_assignment](https://github.com/snehagupta9582883065/hiring_assignment)
 
 ---
