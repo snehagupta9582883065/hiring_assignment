@@ -12,7 +12,7 @@
 ### 1. Intelligence Layer (The "Brain")
 StorePulse surfaces what actually matters to a business leader:
 - **Sentiment Cluster Detection**: Identifies recurring themes in negative reviews (e.g., "wait times") to trigger regional training.
-- **Growth Momentum Analysis**: Highlights locations with significant engagement increases, allowing executives to studied best practices.
+- **Growth Momentum Analysis**: Highlights locations with significant engagement increases, allowing executives to study best practices.
 - **Performance Alerts**: Prioritizes locations needing immediate attention based on rating drops or conversion gaps.
 
 ### 2. Network Performance Console
@@ -42,30 +42,30 @@ StorePulse surfaces what actually matters to a business leader:
 
 ---
 
-## 🏁 Quick Start
+## 🏁 Quick Start (3 Steps)
 
-1. **Clone & Install**:
-   ```bash
-   git clone [Your Repository URL]
-   cd hiring_assignment
-   npm install
-   ```
+### 1. Installation
+```bash
+# Clone the repository and install dependencies
+git clone https://github.com/snehagupta9582883065/hiring_assignment.git
+cd hiring_assignment
+npm install
+```
 
-2. **Environment Setup**:
-   Create a `.env.local` file:
-   ```env
-   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
-   ```
+### 2. Connect Supabase
+Create a `.env.local` file in the root directory and add your credentials:
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_project_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+```
 
-3. **Database Setup**:
-   - Run the SQL in `schema.sql` within your Supabase SQL Editor.
-   - Import the provided CSVs (`locations`, `reviews`, `kpis`) into their respective tables.
-
-4. **Launch**:
-   ```bash
-   npm run dev
-   ```
+### 3. Setup Database & Launch
+1.  **SQL**: Execute the code in `schema.sql` within your Supabase SQL Editor.
+2.  **Data**: In the Supabase Table Editor, import the provided CSV files (`locations`, `reviews`, `kpis`) into their respective tables.
+3.  **Run**:
+    ```bash
+    npm run dev
+    ```
 
 ---
 **StorePulse** - *Empowering Data-Driven Healthcare Operations.*
